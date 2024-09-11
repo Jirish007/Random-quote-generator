@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    .button{
+        background-color: grey;
+        border-radius: 7px;
+        width: 100px;
+        color: black;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+        text-wrap: wrap;
+    }
+    .button:hover{
+        background-color: rgb(87, 4, 4);
+    }
+    .cover_button{
+background-color:grey;
+border-radius: 7px;
+text-transform: uppercase;
+text-wrap: wrap;
+width: 100px;
+    }
+    .cover_button:hover{
+        background-color: rgb(87, 4, 4);
+    }
+    .display{
+        position: relative;
+    }
+    .section{
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translateX(-50%);
+    }
+    .section h3{
+        color: rgb(102, 6, 6);
+    }
+    .section i{
+    color: white;
+    }
+.container{
+    position: relative;
+}
+.cover_button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
